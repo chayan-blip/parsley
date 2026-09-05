@@ -1,6 +1,6 @@
 [project]
 name = "parsley"
-version = "0.1.0"
+version = "0.0.1"
 description = "Reimplementation of celery independently for learning"
 readme = "README.md"
 authors = [
