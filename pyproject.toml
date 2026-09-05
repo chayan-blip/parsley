@@ -1,0 +1,17 @@
+[project]
+name = "parsley"
+version = "0.1.0"
+description = "Reimplementation of celery independently for learning"
+readme = "README.md"
+authors = [
+    { name = "chayanpathak", email = "chayanpathak2013@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+parsley = "parsley:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
